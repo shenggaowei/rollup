@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "resource.h": "c",
+    "stitiffgen_v3.h": "c",
+    "math.h": "c"
+  }
+}
