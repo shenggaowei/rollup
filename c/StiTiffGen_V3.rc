@@ -1,0 +1,311 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 396, 250
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "生成视觉刺激图像(TIFF)",IDC_TIFFGEN,238,221,93,16,
+                    BS_MULTILINE
+    PUSHBUTTON      "取消",IDCANCEL,334,221,45,16
+    CTEXT           "视觉刺激图像设置",IDC_STATIC_TITLE,145,12,65,8,
+                    SS_CENTERIMAGE
+    CONTROL         "L变化，C和H固定",IDC_RADIO1_TEST_L,"Button",
+                    BS_AUTORADIOBUTTON,26,52,78,10
+    CONTROL         "C变化，L和 H固定",IDC_RADIO2_TEST_C,"Button",
+                    BS_AUTORADIOBUTTON,26,68,79,10
+    CONTROL         "H变化，L和C固定",IDC_RADIO3_TEST_H,"Button",
+                    BS_AUTORADIOBUTTON,26,85,78,10
+    GROUPBOX        "测试类型",IDC_STATIC_TITLE2,16,37,96,66
+    GROUPBOX        "波形刺激参数 ( LC H中心值和峰值差距dL,dC,dH)",
+                    IDC_STATIC_TITLE3,116,37,189,111
+    GROUPBOX        "像素数",IDC_STATIC_TITLE4,16,109,95,107
+    EDITTEXT        IDC_EDIT1,55,133,50,13,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "横向",IDC_STATIC_TITLE6,26,134,17,12,SS_CENTERIMAGE
+    CTEXT           "纵向",IDC_STATIC_TITLE7,24,149,19,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT2,55,149,50,13,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "横向",IDC_STATIC_TITLE8,27,182,17,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT3,55,180,50,13,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "纵向",IDC_STATIC_TITLE9,27,198,17,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT4,55,196,50,13,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "L0",IDC_STATIC_TITLE10,123,54,9,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT5,144,51,67,13,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "dL",IDC_STATIC_TITLE11,123,69,9,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT6,144,66,67,13,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "H",IDC_STATIC_TITLE12,219,54,8,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT7,233,51,67,13,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "C",IDC_STATIC_TITLE13,219,69,8,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT8,233,66,67,13,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "C0",IDC_STATIC_TITLE14,123,85,9,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT9,144,83,67,13,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "dC",IDC_STATIC_TITLE15,122,100,10,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT10,144,99,67,13,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "H",IDC_STATIC_TITLE16,219,85,8,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT11,233,83,67,13,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "L",IDC_STATIC_TITLE17,219,100,8,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT12,233,98,67,13,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "H0",IDC_STATIC_TITLE18,123,118,9,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT13,144,116,67,13,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "dH",IDC_STATIC_TITLE19,123,132,10,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT14,144,131,67,13,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "L",IDC_STATIC_TITLE20,219,118,8,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT15,233,116,67,13,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT16,233,131,67,13,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "C",IDC_STATIC_TITLE21,218,132,8,8,SS_CENTERIMAGE
+    CTEXT           "F",IDC_STATIC_TITLE23,126,198,8,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT17,142,196,67,13,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT20,233,196,67,13,ES_CENTER | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "显示器、像素张角设置",IDC_DISPLAY_SET,16,221,94,16,
+                    BS_MULTILINE
+    CTEXT           "Ang",IDC_STATIC_TITLE26,216,197,14,8,SS_CENTERIMAGE
+    PUSHBUTTON      "文件存储路径",IDC_TIFFSAVEPATH,175,221,59,16
+    GROUPBOX        "图像内正弦波个数F 、方向角Ang(度)",IDC_STATIC_TITLE,116,
+                    180,189,36
+    GROUPBOX        "背景色",IDC_STATIC_TITLE5,311,37,68,178
+    CONTROL         "取L0",IDC_RADIO4_AVR_L,"Button",BS_AUTORADIOBUTTON | 
+                    BS_CENTER | BS_VCENTER,316,86,32,10
+    CONTROL         "取C0",IDC_RADIO5_AVR_C,"Button",BS_AUTORADIOBUTTON | 
+                    BS_CENTER | BS_VCENTER,316,101,32,10
+    CONTROL         "取H0",IDC_RADIO6_AVR_H,"Button",BS_AUTORADIOBUTTON | 
+                    BS_CENTER | BS_VCENTER,316,117,32,10
+    CONTROL         "自定义LCH",IDC_RADIO9_LCH_SELF,"Button",
+                    BS_AUTORADIOBUTTON,316,133,54,10
+    CONTROL         "中性灰(取L0)",IDC_RADIO7_NEUTRAL,"Button",
+                    BS_AUTORADIOBUTTON | BS_CENTER | BS_MULTILINE,316,50,55,
+                    20
+    CONTROL         "自定义Lab",IDC_RADIO10_LAB_SELF,"Button",
+                    BS_AUTORADIOBUTTON,316,148,52,10
+    CONTROL         "中性灰(自定L)",IDC_RADIO8_NEUTRAL2,"Button",
+                    BS_AUTORADIOBUTTON | BS_CENTER | BS_VCENTER | 
+                    BS_MULTILINE,316,71,61,10
+    EDITTEXT        IDC_EDIT21,317,164,56,13,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT22,317,179,56,13,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT23,317,194,56,13,ES_CENTER | ES_AUTOHSCROLL
+    PUSHBUTTON      "观察距离计算",IDC_VIEWDISTANCE,113,221,59,16
+    CTEXT           "全图",IDC_STATIC_TITLE22,71,121,17,8,SS_CENTERIMAGE
+    CTEXT           "测试区",IDC_STATIC_TITLE27,67,168,25,8,SS_CENTERIMAGE
+    GROUPBOX        "波形图像个数 ( 中心值上下各自的个数 )",IDC_STATIC_TITLE,
+                    115,149,191,29
+    EDITTEXT        IDC_EDIT18,232,160,67,13,ES_CENTER | ES_AUTOHSCROLL
+END
+
+IDD_DIALOG2 DIALOG DISCARDABLE  0, 0, 258, 148
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "好",IDOK,141,123,50,14
+    PUSHBUTTON      "取消",IDCANCEL,194,123,50,14
+    CTEXT           "显示器参数及观察条件",IDC_STATIC1,76,7,107,19,
+                    SS_CENTERIMAGE
+    CTEXT           "像素数",IDC_STATIC2,20,42,25,8,SS_CENTERIMAGE
+    CTEXT           "纵向",IDC_STATIC3,171,42,17,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT21,106,40,47,13,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT22,193,40,47,13,ES_CENTER | ES_AUTOHSCROLL
+    GROUPBOX        "显示器",IDC_STATIC,14,30,231,48
+    GROUPBOX        "观察条件",IDC_STATIC,14,88,231,27
+    CTEXT           "屏幕尺寸(mm)",IDC_STATIC4,19,58,51,8,SS_CENTERIMAGE
+    CTEXT           "纵向",IDC_STATIC5,170,58,17,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT23,106,56,47,13,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT24,193,56,47,13,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "横向",IDC_STATIC7,83,42,17,8,SS_CENTERIMAGE
+    CTEXT           "横向",IDC_STATIC8,82,58,17,8,SS_CENTERIMAGE
+    CONTROL         "每像素视角0.5分",IDC_RADIO1_ANGLE05,"Button",
+                    BS_AUTORADIOBUTTON,63,98,65,10
+    CONTROL         "每像素视角1.0分",IDC_RADIO2_ANGLE10,"Button",
+                    BS_AUTORADIOBUTTON,144,98,65,10
+END
+
+IDD_DIALOG3 DIALOG DISCARDABLE  0, 0, 310, 196
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "算一下......",IDOK,206,107,50,33
+    PUSHBUTTON      "退出",IDCANCEL,133,170,50,14
+    CTEXT           "视觉观察距离计算",IDC_VIEW_TITLE,97,17,65,8
+    CTEXT           "像素数",IDC_STATIC2,23,47,25,8,SS_CENTERIMAGE
+    CTEXT           "纵向",IDC_STATIC3,76,64,17,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT21,99,45,47,13,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT22,99,62,47,13,ES_CENTER | ES_AUTOHSCROLL
+    GROUPBOX        "显示器参数",IDC_STATIC,17,34,134,82
+    CTEXT           "屏幕尺寸(mm)",IDC_STATIC4,21,82,51,8,SS_CENTERIMAGE
+    CTEXT           "纵向",IDC_STATIC5,76,99,17,8,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT23,99,79,47,13,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT24,99,96,47,13,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "横向",IDC_STATIC7,76,47,17,8,SS_CENTERIMAGE
+    CTEXT           "横向",IDC_STATIC8,76,81,17,8,SS_CENTERIMAGE
+    GROUPBOX        "观察条件",IDC_STATIC,17,119,134,44
+    CONTROL         "每像素视角0.5分",IDC_RADIO1_ANGLE05,"Button",
+                    BS_AUTORADIOBUTTON,76,130,65,10
+    CONTROL         "每像素视角1.0分",IDC_RADIO2_ANGLE10,"Button",
+                    BS_AUTORADIOBUTTON,76,146,65,10
+    GROUPBOX        "观察距离(mm)",IDC_STATIC,161,33,134,130,BS_CENTER
+    EDITTEXT        IDC_EDIT1_VIEWDIST,189,56,82,27,ES_CENTER | 
+                    ES_AUTOHSCROLL
+END
+
+IDD_DIALOG4 DIALOG DISCARDABLE  0, 0, 242, 101
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "好",IDOK,194,65,34,14
+    CTEXT           "波形文件存储盘",IDC_STATIC,76,16,76,12
+    CONTROL         "C:\\",IDC_RADIO_DISK1,"Button",BS_AUTORADIOBUTTON,24,34,
+                    28,17
+    CONTROL         "D:\\",IDC_RADIO_DISK2,"Button",BS_AUTORADIOBUTTON,59,34,
+                    28,17
+    CONTROL         "E:\\",IDC_RADIO_DISK3,"Button",BS_AUTORADIOBUTTON,91,34,
+                    28,17
+    CONTROL         "F:\\",IDC_RADIO_DISK4,"Button",BS_AUTORADIOBUTTON,123,
+                    34,28,17
+    CONTROL         "G:\\",IDC_RADIO_DISK5,"Button",BS_AUTORADIOBUTTON,158,
+                    34,28,17
+    CONTROL         "H:\\",IDC_RADIO_DISK6,"Button",BS_AUTORADIOBUTTON,190,
+                    34,28,17
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 389
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 243
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 251
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 303
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 189
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 94
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "设置"
+    BEGIN
+        MENUITEM "波形图像(参数/生成)",         IDM_SET_TIFFGEN
+        MENUITEM SEPARATOR
+        MENUITEM "显示及观察条件",              IDM_SET_DISPVIEW
+        MENUITEM SEPARATOR
+        MENUITEM "文件存储路径",                IDM_FILEPATH
+        MENUITEM SEPARATOR
+        MENUITEM "退出",                        IDM_EXIT
+    END
+    MENUITEM "关于",                        65535
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "icon1.ico"
+IDI_ICON2               ICON    DISCARDABLE     "icon2.ico"
+IDI_ICON3               ICON    DISCARDABLE     "icon3.ico"
+IDI_ICON4               ICON    DISCARDABLE     "icon4.ico"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
